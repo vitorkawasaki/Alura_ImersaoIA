@@ -12,7 +12,17 @@ Understanding Neutral Sentiment and the Difficulty of Understanding Emotions and
 
 > In the project, I used Gemini to help me with the text content to speed up the process.
 
+## File: teste__IA.ipynb
+"It took over 6 hours to load this code."
 
+> training_args = TrainingArguments(
+>    output_dir='./modelo_gpt_treinado',
+>    overwrite_output_dir=True,
+>    num_train_epochs=1,
+>    per_device_train_batch_size=1,
+>    save_steps=1_000,
+>    save_total_limit=1
+> )
 
 ---
 
@@ -28,4 +38,17 @@ Entendendo o sentimento neutro e a dificuldade de entender emoções e sentiment
 
 > Eu como uma pessoa autista com diagnóstico tardio passei por isso, mas até o diagnóstico desconhecia de muitas coisas.
 
-> No projeto, utilizei o Gemini para me ajudar com o texto o conteúdo para agilizar o processo. 
+> No projeto, utilizei o Gemini para me ajudar com o texto o conteúdo para agilizar o processo.
+
+## Arquivo: teste__IA.ipynb
+Foram mais de 6h carregando esse código:
+
+> training_args = TrainingArguments(
+>    output_dir='./modelo_gpt_treinado',
+>    overwrite_output_dir=True,
+>    num_train_epochs=1,
+>    per_device_train_batch_size=1,
+>    save_steps=1_000,
+>    save_total_limit=1
+> )
+
